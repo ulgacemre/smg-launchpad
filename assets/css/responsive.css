@@ -1,0 +1,117 @@
+
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+
+@media (max-width: 767px){
+
+	.navbar-default {
+		padding: 10px 20px;
+	}
+	.navbar-default .navbar-toggler{
+		background: none;
+		border: none;
+	}
+
+	.navbar-header {		
+		width: 100%;
+	}
+
+	.navbar-default .navbar-nav .nav-item{
+		margin: 12px 20px;
+		line-height: 20px;
+	}
+
+	.navbar-default .navbar-toggler:hover,
+	.navbar-default .navbar-toggler:focus
+	{
+		background: none;
+	}
+
+	.navbar-default .navbar-toggler .icon-bar{
+		background: #c49b66;
+	}
+
+	.navbar-toggler .icon-bar+.icon-bar {
+		margin-top: 4px;
+	}
+
+	.navbar-toggler .icon-bar {
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+	}
+		
+	.navbar-default .navbar-collapse{
+		text-align: center;
+		border: none;
+		background: #111;
+		margin-top: 3px;
+	}
+
+	.tona-header{
+		background-position: 50% 0% !important;
+	}
+
+	.top-center-title-logo {
+		width: 180px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}	
+	
+	.section-top-title .stack {
+		letter-spacing: 2px;
+	}
+
+	.section-top-title .earn{
+		letter-spacing: 8px;
+	}
+
+	.feature-mark {
+		width: 80px;
+	}
+
+	.feature-desc {
+		font-size: 20px;
+		line-height: 30px;
+		padding-left: 8px;
+	}
+	
+	.overlay {
+		width: calc(100% - 8px);
+	}
+
+		
+	.text-h3 {
+		font-size: 2rem;
+		line-height: 2.125rem;
+	}
+
+	.pool-tabs-tab {
+		max-width: unset;
+		border-bottom: 1px solid #007bff;
+		margin-top: 12px;
+	}
+
+	.pool-tab-panel {
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.about-smaugs-content {
+		height: unset;
+		scroll-behavior: smooth;
+	}
+}
+
+@media (max-width: 991px){
+	.navbar-default .container {
+		max-width: 100%;
+	}
+}
